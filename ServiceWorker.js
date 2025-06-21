@@ -1,9 +1,9 @@
 const cacheName = "DefaultCompany-Broccoli-0.1";
 const contentToCache = [
-    "Build/ZeroSecondStop.loader.js",
-    "Build/ZeroSecondStop.framework.js",
-    "Build/ZeroSecondStop.data",
-    "Build/ZeroSecondStop.wasm",
+    "Build/cicholdax-github-io.loader.js",
+    "Build/cicholdax-github-io.framework.js",
+    "Build/cicholdax-github-io.data",
+    "Build/cicholdax-github-io.wasm",
     "TemplateData/style.css"
 
 ];
