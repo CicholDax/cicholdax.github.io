@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
     <title>Nessie</title>
     
 <script type="module">
@@ -25,11 +25,13 @@ dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
             height: 100%;
             overflow: hidden;
             background: #000;
+            touch-action: manipulation;
         }
         canvas {
             display: block;
             width: 100%;
             height: 100%;
+            touch-action: none;
         }
     </style>
 <link rel="modulepreload" href="/nessie-bf0376e10717aeb9.js" crossorigin="anonymous" integrity="sha384-6URiDZ/8uRlmySg+3ZZdaDAMJtMHklx4uvkXs1Dp3PoZEMtBUGR77ULSBpXQ4vyh"><link rel="preload" href="/nessie-bf0376e10717aeb9_bg.wasm" crossorigin="anonymous" integrity="sha384-teSxB5XM/se92nMoHqIw0O1XoMUrDcS9GAN2dicrZ0rixxa83rYHdqaYAezJm5Fp" as="fetch" type="application/wasm"></head>
